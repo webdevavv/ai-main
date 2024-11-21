@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>markup rig</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#1e1e1e">
+	<meta name="theme-color" content="#ffffff">
+	
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<link rel="stylesheet" href="/assets/css/app.css">
+	
+</head>
+<body>
+
+	<div id="main" class="main">
+		<header class="header">
+	<div class="header__inner">
+		<div class="header__bg"></div>
+		<a href="#main" class="header__logo">
+			<img class="header__logo-img" src="img/logo-black.svg" alt="">
+		</a>
+
+		<div class="menu">
+			<div class="menu__inner">
+				<div class="menu__wrap">
+					<div class="menu__cont">
+						<div class="menu__header">
+							Универсальная платформа <br>для автоматизации процесса <br>создания контента
+						</div>
+						<ul class="menu-list">
+							<li class="menu-list__item menu-list__item-drop">
+								<div class="menu-list__drop-btn">
+									Возможности
+									<svg class="icon menu-list__drop-btn-icon">
+										<use href="img/sprite.svg#caret"></use>
+									</svg>
+								</div>
+								<div class="menu-list__drop">
+									<div class="menu-list__drop-inner">
+										<ul class="sub-menu-list">
+											<li class="sub-menu-list__item"><a href="#opts" class="sub-menu-list__link">Генерация изображений</a></li>
+											<li class="sub-menu-list__item"><a href="#gen-text" class="sub-menu-list__link">Генерация текста</a></li>
+											<li class="sub-menu-list__item"><a href="#audio-work" class="sub-menu-list__link">Работа с аудио</a></li>
+											<li class="sub-menu-list__item"><a href="#gen-video" class="sub-menu-list__link">Генерация видео</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+
+							<li class="menu-list__item">
+								<a href="#self-expression" class="menu-list__link">Для кого</a>
+							</li>
+
+							<li class="menu-list__item">
+								<a href="#work-steps" class="menu-list__link">Как работает</a>
+							</li>
+
+							<li class="menu-list__item">
+								<a href="#comments" class="menu-list__link">Отзывы</a>
+							</li>
+
+							<li class="menu-list__item">
+								<a href="#faq" class="menu-list__link">FAQ</a>
+							</li>
+						</ul>
+
+						<div class="menu__actions">
+							<a href="" class="btn btn_white menu__actions-btn">Вход</a>
+							<a href="" class="btn btn_dark menu__actions-btn">Регистрация</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="menu-btn">
+			<span class="menu-btn__item menu-btn__item_1"></span>
+			<span class="menu-btn__item menu-btn__item_2"></span>
+			<span class="menu-btn__item menu-btn__item_3"></span>
+		</div>
+	</div>
+</header>
+
+		<div class="page-content">
+				<div class="main-container">
+		<h1>ui</h1>
+
+		<h2>Icons</h2>
+		
+				<table class="w-full">
+			<tr>
+									<th class="text_center">Icon</th>
+					<th class="text_start">Name</th>
+									<th class="text_center">Icon</th>
+					<th class="text_start">Name</th>
+									<th class="text_center">Icon</th>
+					<th class="text_start">Name</th>
+							</tr>
+												<tr>
+								<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#document"></use>
+					</svg>
+				</td>
+				<td>#document</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#document-left"></use>
+					</svg>
+				</td>
+				<td>#document-left</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#document-center"></use>
+					</svg>
+				</td>
+				<td>#document-center</td>
+
+									</tr>
+																<tr>
+								<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#document-center-2"></use>
+					</svg>
+				</td>
+				<td>#document-center-2</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#document-align-center"></use>
+					</svg>
+				</td>
+				<td>#document-align-center</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#volume-mute"></use>
+					</svg>
+				</td>
+				<td>#volume-mute</td>
+
+									</tr>
+																<tr>
+								<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#text-left"></use>
+					</svg>
+				</td>
+				<td>#text-left</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#pause"></use>
+					</svg>
+				</td>
+				<td>#pause</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#menu-fries"></use>
+					</svg>
+				</td>
+				<td>#menu-fries</td>
+
+									</tr>
+																<tr>
+								<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#text"></use>
+					</svg>
+				</td>
+				<td>#text</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#tick"></use>
+					</svg>
+				</td>
+				<td>#tick</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#group"></use>
+					</svg>
+				</td>
+				<td>#group</td>
+
+									</tr>
+																<tr>
+								<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#text-2"></use>
+					</svg>
+				</td>
+				<td>#text-2</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#faq-circle"></use>
+					</svg>
+				</td>
+				<td>#faq-circle</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#stars"></use>
+					</svg>
+				</td>
+				<td>#stars</td>
+
+									</tr>
+																<tr>
+								<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#setting"></use>
+					</svg>
+				</td>
+				<td>#setting</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#text-3"></use>
+					</svg>
+				</td>
+				<td>#text-3</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#text-4"></use>
+					</svg>
+				</td>
+				<td>#text-4</td>
+
+									</tr>
+																<tr>
+								<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#like"></use>
+					</svg>
+				</td>
+				<td>#like</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#star"></use>
+					</svg>
+				</td>
+				<td>#star</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#text-5"></use>
+					</svg>
+				</td>
+				<td>#text-5</td>
+
+									</tr>
+																<tr>
+								<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#like-2"></use>
+					</svg>
+				</td>
+				<td>#like-2</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#stop-circle"></use>
+					</svg>
+				</td>
+				<td>#stop-circle</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#fb-o"></use>
+					</svg>
+				</td>
+				<td>#fb-o</td>
+
+									</tr>
+																<tr>
+								<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#google-advertisement"></use>
+					</svg>
+				</td>
+				<td>#google-advertisement</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#display"></use>
+					</svg>
+				</td>
+				<td>#display</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#notification"></use>
+					</svg>
+				</td>
+				<td>#notification</td>
+
+									</tr>
+																<tr>
+								<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#home"></use>
+					</svg>
+				</td>
+				<td>#home</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#dollar-circle"></use>
+					</svg>
+				</td>
+				<td>#dollar-circle</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#text-6"></use>
+					</svg>
+				</td>
+				<td>#text-6</td>
+
+									</tr>
+																<tr>
+								<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#discount-circle"></use>
+					</svg>
+				</td>
+				<td>#discount-circle</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#message"></use>
+					</svg>
+				</td>
+				<td>#message</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#send"></use>
+					</svg>
+				</td>
+				<td>#send</td>
+
+									</tr>
+																<tr>
+								<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#send-2"></use>
+					</svg>
+				</td>
+				<td>#send-2</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#profile"></use>
+					</svg>
+				</td>
+				<td>#profile</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#edit-square"></use>
+					</svg>
+				</td>
+				<td>#edit-square</td>
+
+									</tr>
+																<tr>
+								<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#like-3"></use>
+					</svg>
+				</td>
+				<td>#like-3</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#document-align-bottom"></use>
+					</svg>
+				</td>
+				<td>#document-align-bottom</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#video"></use>
+					</svg>
+				</td>
+				<td>#video</td>
+
+									</tr>
+																<tr>
+								<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#video-2"></use>
+					</svg>
+				</td>
+				<td>#video-2</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#hashtag"></use>
+					</svg>
+				</td>
+				<td>#hashtag</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#text-7"></use>
+					</svg>
+				</td>
+				<td>#text-7</td>
+
+									</tr>
+																<tr>
+								<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#document-align-left"></use>
+					</svg>
+				</td>
+				<td>#document-align-left</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#add"></use>
+					</svg>
+				</td>
+				<td>#add</td>
+
+															<td>
+					<svg style="width: 30px; height: 30px;" class="icon mx-auto">
+						<use href="/img/sprite.svg#caret"></use>
+					</svg>
+				</td>
+				<td>#caret</td>
+
+									</tr>
+									</table>
+	</div>
+
+		</div>
+		
+		<footer class="footer">
+	<div class="main-container footer__inner">
+		<div class="footer__cont">
+			<div class="footer__logo-w">
+				<img class="footer__logo" src="img/logo.svg" alt="">
+
+				<div class="footer__copyright hidden_max-lg">
+					©2024 Assistant AI.<br>Все права защищены
+				</div>
+			</div>
+
+			<div class="footer__menu-w">
+							</div>
+
+			<div class="footer__auxiliary-w">
+				<a href="" class="btn btn_white">Регистрация</a>
+
+				<div class="footer__copyright  hidden_lg">
+					©2024 Assistant AI.<br>Все права защищены
+				</div>
+			</div>
+		</div>
+		<div class="footer__bg-text">Assistant AI</div>
+	</div>
+</footer>
+	</div>
+
+<script src="/js/swiper-bundle.min.js"></script>
+<script src="/js/typed.umd.js"></script>
+<script src="/js/aos.js"></script>
+
+
+<script src="/js/app.js"></script>
+
+
+</body>
+</html>
