@@ -1,35 +1,35 @@
 
 @font-face {
   font-family: "Myriad Pro";
-  src: url("/fonts/MyriadPro/MyriadPro-Semibold.woff2") format("woff2"), url("/fonts/MyriadPro/MyriadPro-Semibold.woff") format("woff");
+  src: url("../../fonts/MyriadPro/MyriadPro-Semibold.woff2") format("woff2"), url("../../fonts/MyriadPro/MyriadPro-Semibold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Myriad Pro";
-  src: url("/fonts/MyriadPro/MyriadPro-Regular.woff2") format("woff2"), url("/fonts/MyriadPro/MyriadPro-Regular.woff") format("woff");
+  src: url("../../fonts/MyriadPro/MyriadPro-Regular.woff2") format("woff2"), url("../../fonts/MyriadPro/MyriadPro-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Myriad Pro";
-  src: url("/fonts/MyriadPro/MyriadPro-Bold.woff2") format("woff2"), url("/fonts/MyriadPro/MyriadPro-Bold.woff") format("woff");
+  src: url("../../fonts/MyriadPro/MyriadPro-Bold.woff2") format("woff2"), url("../../fonts/MyriadPro/MyriadPro-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Myriad Pro";
-  src: url("/fonts/MyriadPro/MyriadPro-Light.woff2") format("woff2"), url("/fonts/MyriadPro/MyriadPro-Light.woff") format("woff");
+  src: url("../../fonts/MyriadPro/MyriadPro-Light.woff2") format("woff2"), url("../../fonts/MyriadPro/MyriadPro-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("/fonts/Montserrat/Montserrat-SemiBold.woff2") format("woff2"), url("/fonts/Montserrat/Montserrat-SemiBold.woff") format("woff");
+  src: url("../../fonts/Montserrat/Montserrat-SemiBold.woff2") format("woff2"), url("../../fonts/Montserrat/Montserrat-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -2502,7 +2502,7 @@ input {
   position: absolute;
   top: 0;
   right: 0;
-  background: url("/img/possibilities/opts-item-bg.webp") no-repeat center;
+  background: url("../../img/possibilities/opts-item-bg.webp") no-repeat center;
   background-size: contain;
   width: 267px;
   height: 144px;
@@ -2539,13 +2539,13 @@ input {
 }
 
 .hero {
-  background: url("/img/bg-section-mob.webp") no-repeat center top;
+  background: url("../../img/bg-section-mob.webp") no-repeat center top;
   background-size: 2240px auto;
   min-height: 780px;
 }
 @media (min-width: 1280px) {
   .hero {
-    background-image: url("/img/bg-section.webp");
+    background-image: url("../../img/bg-section.webp");
     min-height: 890px;
     background-size: 3230px auto;
   }
@@ -2669,14 +2669,14 @@ input {
 .benefits__bg {
   height: 192px;
   width: 100%;
-  background: url("/img/benefits/benefits-mob-bg.webp") no-repeat center;
+  background: url("../../img/benefits/benefits-mob-bg.webp") no-repeat center;
   background-size: auto 100%;
   margin-top: 32px;
 }
 @media (min-width: 768px) {
   .benefits__bg {
     height: 480px;
-    background-image: url("/img/benefits/benefits-bg.webp");
+    background-image: url("../../img/benefits/benefits-bg.webp");
     background-size: 738px auto;
   }
 }
@@ -2782,7 +2782,7 @@ input {
 }
 .benefits__item_1 .benefits__item-inner:before {
   height: 488px;
-  background-image: url("/img/benefits/benefits-item-bg-1.webp");
+  background-image: url("../../img/benefits/benefits-item-bg-1.webp");
   top: -253px;
   right: -14px;
 }
@@ -2796,7 +2796,7 @@ input {
 }
 .benefits__item_2 .benefits__item-inner:before {
   height: 516px;
-  background-image: url("/img/benefits/benefits-item-bg-2.webp");
+  background-image: url("../../img/benefits/benefits-item-bg-2.webp");
   top: -281px;
   right: -14px;
 }
@@ -2815,7 +2815,7 @@ input {
 }
 .benefits__item_3 .benefits__item-inner:before {
   height: 474px;
-  background-image: url("/img/benefits/benefits-item-bg-3.webp");
+  background-image: url("../../img/benefits/benefits-item-bg-3.webp");
   top: -281px;
   right: -14px;
 }
@@ -2880,7 +2880,7 @@ input {
     top: 0;
     width: 100%;
     height: 54.1666666667vw;
-    background: url("/img/opts-bg-desk.webp") no-repeat center;
+    background: url("../../img/opts-bg-desk.webp") no-repeat center;
     background-size: contain;
   }
 }
@@ -2982,7 +2982,7 @@ input {
   position: absolute;
   top: -88px;
   right: 0;
-  background: url("/img/possibilities/opts-item-bg.webp") no-repeat center;
+  background: url("../../img/possibilities/opts-item-bg.webp") no-repeat center;
   background-size: contain;
   width: 272px;
   height: 242px;
@@ -3045,13 +3045,13 @@ input {
 }
 .gen-text__bg {
   height: 192px;
-  background: url("/img/gen-text-bg-mob.webp") no-repeat center;
+  background: url("../../img/gen-text-bg-mob.webp") no-repeat center;
   background-size: contain;
 }
 @media (min-width: 768px) {
   .gen-text__bg {
     height: 360px;
-    background-image: url("/img/gen-text-bg-desk.webp");
+    background-image: url("../../img/gen-text-bg-desk.webp");
     background-size: auto 100%;
   }
 }
@@ -3230,7 +3230,7 @@ input {
 }
 
 .self-expression {
-  background: url("/img/self-expression-bg.webp") no-repeat center;
+  background: url("../../img/self-expression-bg.webp") no-repeat center;
   background-size: auto 100%;
   margin-top: 74px;
   scroll-margin-top: 120px;
@@ -3599,13 +3599,13 @@ input {
   background-size: contain;
 }
 .work-steps__item_1:before {
-  background-image: url("/img/work-steps/work-steps-bg-1.webp");
+  background-image: url("../../img/work-steps/work-steps-bg-1.webp");
 }
 .work-steps__item_2:before {
-  background-image: url("/img/work-steps/work-steps-bg-2.webp");
+  background-image: url("../../img/work-steps/work-steps-bg-2.webp");
 }
 .work-steps__item_3:before {
-  background-image: url("/img/work-steps/work-steps-bg-3.webp");
+  background-image: url("../../img/work-steps/work-steps-bg-3.webp");
 }
 .work-steps__item-num {
   font-weight: 600;
@@ -3806,14 +3806,14 @@ input {
   z-index: -1;
   display: block;
   content: "";
-  background: url("/img/service-unique/service-unique-item-bg.webp") no-repeat top right;
+  background: url("../../img/service-unique/service-unique-item-bg.webp") no-repeat top right;
   background-size: contain;
   width: 272px;
   height: 152px;
 }
 @media (min-width: 1280px) {
   .service-unique__item:before {
-    background-image: url("/img/service-unique/service-unique-item-bg-desk.webp");
+    background-image: url("../../img/service-unique/service-unique-item-bg-desk.webp");
     width: 386px;
     height: 195px;
   }
@@ -4422,12 +4422,12 @@ input {
   margin-top: 84px;
   padding-bottom: 40px;
   padding-top: 60px;
-  background: url("/img/trust-content-bg-mob.webp") no-repeat center top;
+  background: url("../../img/trust-content-bg-mob.webp") no-repeat center top;
   background-size: auto 528px;
 }
 @media (min-width: 768px) {
   .trust-content {
-    background-image: url("/img/trust-content-bg-desk.webp");
+    background-image: url("../../img/trust-content-bg-desk.webp");
     background-size: auto 691px;
   }
 }
@@ -4476,7 +4476,7 @@ input {
   }
 }
 .trust-content__bn {
-  background: url("/img/trust-content-bn-mob.webp") no-repeat center top;
+  background: url("../../img/trust-content-bn-mob.webp") no-repeat center top;
   background-size: auto 100%;
   height: 192px;
   margin-top: 40px;
@@ -4484,7 +4484,7 @@ input {
 @media (min-width: 768px) {
   .trust-content__bn {
     height: 430px;
-    background-image: url("/img/trust-content-bn.webp");
+    background-image: url("../../img/trust-content-bn.webp");
   }
 }
 @media (min-width: 1280px) {
@@ -4846,8 +4846,8 @@ input {
     border-radius: 16px;
     backdrop-filter: blur(8px);
     box-shadow: 0 0 20px 0 rgba(0, 87, 255, 0.08);
-    background: url("/img/menu-bg.webp") no-repeat center top;
-    background-size: auto 780px;
+    background: url("../../img/menu-bg.webp") no-repeat center top;
+    background-size: cover;
     position: relative;
     overflow: clip;
   }
@@ -4866,7 +4866,7 @@ input {
     margin: -91px 0 0 181px;
     display: block;
     content: "";
-    background: url("/img/menu-bg-2.webp") no-repeat center top;
+    background: url("../../img/menu-bg-2.webp") no-repeat center top;
     background-size: contain;
     width: 693px;
     height: 322px;
