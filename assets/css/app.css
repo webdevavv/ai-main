@@ -4807,7 +4807,7 @@ input {
   .menu {
     backdrop-filter: blur(12px);
     background: var(--bg-blur);
-    height: 100vh;
+    height: 100dvh;
     width: 100vw;
     position: absolute;
     top: -14px;
